@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border:0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+a{
+    align-content: center;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: 1s linear;   
+}
+  
+body {
+    background-color:#DBD3D8;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    color:  #2E5E4E;
+}
+
+p {
+    padding:7px;
+    text-align: center;
+    color:#454b47c6
+}
+
+#learnmore {
+    background-color: #2E5E4E;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; 
+}
+  
+ 
+  #learnmore:hover {
+    background-color:rgb(35, 66, 56); 
+  }
+  
+  
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+    width: 80px;
+    height: auto;
+}
+
+
+
+
+
+nav ul{
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    background-color:#A7B5B9;
+    border-radius: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  
+}
+    
+
+
+nav li{
+    flex: 1;
+    display:inline-block;
+    text-align: center;
+}
+
+  
+
+  .contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  
+   
+}
+
+.contenedor:hover {filter: opacity(.5);}
+
+
+.centrado{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    background-color:  #31433a;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+
+section {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    
+    margin: 2px;
+    padding: 10px;
+}
+
+article {
+
+  flex: 1;
+  border-radius: 10px;
+  background-color: #A7B5B9;
+  padding: 20px;
+  margin-bottom: 15px; 
+  margin-right: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    display: flex;
+}
+
+
+footer div {
+    flex: 1;
+}
+
+
+
+.footer-logo {
+    max-width: 7%; 
+    height: auto; 
+    margin-left: 20px;
+}
